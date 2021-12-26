@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#673AB7"
+        android:text="Chương Trình Tính Tuổi"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etxtNamSinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập Năm Sinh"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTinh"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:onClick="TinhTuoi"
+            android:text="Tính Tuổi" />
+
+        <Button
+            android:id="@+id/btnMauSac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Màu Sắc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMonAn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Món Ăn" />
+
+        <Button
+            android:id="@+id/btnTheThao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thể Thao" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ẩn " />
+
+        <Button
+            android:id="@+id/btnHien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hiện" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDoiMH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SK_DoiMHinh"
+        android:text="Đổi Màn Hình" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#4CAF50"
+        android:text="Tuổi Của Bạn"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtHienThi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtMauSacHT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Màu Sắc Yêu Thích"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Món Ăn"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtTheThao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thể Thao"
+        android:textSize="24sp" />
+
+</LinearLayout>

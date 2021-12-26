@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Bai2/app/src/main/res/layout/activity_main.xml" value="0.26222826086956524" />
+        <entry key="..\:/Android/Bai2/app/src/main/res/layout/activity_main_anh.xml" value="0.25815217391304346" />
+        <entry key="..\:/Android/Bai2/app/src/main/res/layout/activity_main_check_box.xml" value="0.26222826086956524" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/activity_main_app_dan_so.xml" value="0.25885416666666666" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/activity_main_app_danh_ba.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/activity_main_appdanso.xml" value="0.264" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/activity_main_bai23.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/activity_main_bai24.xml" value="0.23143115942028986" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/activity_main_sprinner.xml" value="0.23143115942028986" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/app_quanlynhanvien.xml" value="0.254981884057971" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/app_tygiangoaite.xml" value="0.26268115942028986" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/fragment_second.xml" value="0.14375" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/view_danhba.xml" value="0.2586050724637681" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/view_nation.xml" value="0.25885416666666666" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/view_nhanvien.xml" value="0.254981884057971" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/layout/view_quanlynhanvien.xml" value="0.254981884057971" />
+        <entry key="..\:/Android/BaiTapTuan 2-3/app/src/main/res/menu/menu_toolbar.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android/TUAN2-3-Ctrol co ban/app/src/main/res/layout/app_quanlynhanvien.xml" value="0.15443840579710144" />
+        <entry key="..\:/Android/TUAN2-3-Ctrol co ban/app/src/main/res/layout/view_nation.xml" value="0.15443840579710144" />
+        <entry key="..\:/Android/app/src/main/res/layout/activity_main.xml" value="0.21965579710144928" />
+        <entry key="..\:/Android/app/src/main/res/layout/activity_main_check_box.xml" value="0.2658514492753623" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

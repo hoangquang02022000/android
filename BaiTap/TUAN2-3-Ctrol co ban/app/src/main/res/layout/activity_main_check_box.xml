@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2EA91"
+    tools:context=".MainCheckBox">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="302dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:background="#673AB7"
+        android:text="Chọn Người Yêu "
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="408dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <CheckBox
+            android:id="@+id/cBThuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Thị Thu Thương" />
+
+        <CheckBox
+            android:id="@+id/cBAnh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mai Quỳnh Anh" />
+
+        <CheckBox
+            android:id="@+id/cBQuanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lê Thị Kiều Quanh" />
+
+        <CheckBox
+            android:id="@+id/cBNhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phạm Thị Yến Nhi" />
+
+        <CheckBox
+            android:id="@+id/cBLan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đặng Quế Lan" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:text="Chọn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="399dp"
+        android:layout_height="33dp"
+        android:background="#E91E63"
+        android:text="Người Yêu Bạn Là :"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChon" />
+
+    <TextView
+        android:id="@+id/txtHienThi"
+        android:layout_width="412dp"
+        android:layout_height="95dp"
+        android:backgroundTint="#8D9546"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnQuayLai"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:onClick="quayLai"
+        android:text="QuayLại"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="408dp"
+        android:layout_height="37dp"
+        android:background="#FFEB3B"
+        android:text="Bạn Muốn Có NY"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHienThi" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="263dp"
+        android:layout_height="87dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/btnTraLoi"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/rBCo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Có"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/rBkhong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Không"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTraLoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="Trả Lời"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:background="#DA5683"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnXemAnh"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Xem Ảnh" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

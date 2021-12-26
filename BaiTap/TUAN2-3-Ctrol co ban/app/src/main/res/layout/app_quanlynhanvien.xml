@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ABCDDC"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mã Nhân Viên"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txt_NhapMaNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Nhập Mã"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên Nhân Viên"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txt_NhapTenNV"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Nhập Tên"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="138dp"
+            android:layout_height="match_parent"
+            android:text="Giới Tính"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtn_Nam"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rbtn_Nu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Xoa"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xóa"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_Them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thêm"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_HienThi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

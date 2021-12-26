@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#8A5BDF"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/txtSongId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="30dp"
+                    android:text="000001"
+                    android:textColor="@color/teal_200"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            app:cardBackgroundColor="#F6E975"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtSongName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Em không quay về"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtSongSinger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Hoàng tôn"
+                    android:textColor="#8b8d99"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtnHeart"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#F6E975"
+                        android:src="@drawable/unheart_30px"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/txtSongCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:text="Thể loại"
+                        android:textAlignment="textEnd"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

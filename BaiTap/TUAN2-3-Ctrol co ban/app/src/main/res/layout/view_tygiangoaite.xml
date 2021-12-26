@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_TiGia"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_KyHieu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Ký Hiệu"
+            android:textAlignment="center"
+            android:textColor="#F80808"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Mua TM"
+                android:textColor="#CDDC39"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_giamuaTM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="00000"
+                android:textColor="#CDDC39"
+                android:textColorHighlight="#040403"
+                android:textColorHint="#CDDC39"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="54dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bán TM"
+                android:textColor="#E91E63"
+                android:textColorHint="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_giabanTM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="000000"
+                android:textColor="#D35B84"
+                android:textColorHint="#E91E63"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="41dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mua CK"
+                android:textColor="#009688"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_giaMuaCK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="00000"
+                android:textColor="#009688"
+                android:textColorHint="#009688"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="37dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bán CK"
+                android:textColor="#F44336"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_giaBanCK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="00000"
+                android:textColor="#F44336"
+                android:textColorHighlight="#F44336"
+                android:textColorHint="#F44336"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
